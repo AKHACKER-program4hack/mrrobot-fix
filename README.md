@@ -20,54 +20,6 @@ I assume you will read this whole README.md file before continuing.
 
 > Development in progress.
 
-## Requirements
-You're gonna need to get the following programs and services either installed on your server
-or signed up for. You must do all. It is a cardinal sin if you don't.
-
-* `virtualenv` installed so that the packages don't interfere with other system packages.
-
-## Installing
-
-<details>
-  <summary> Video Tutorial </summary>
-
-```
-Official YouTube Channel Of MR.Robot Owner.
-Click on the link below to get tutorial on 
-How To Deploy MR.Robot.
-```
-<a href="https://youtu.be/ifkGhxhlV6Q"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/ifkGhxhlV6Q"><img src="https://img.shields.io/youtube/views/ifkGhxhlV6Q?style=social"></a>
-
-</details>
-
-Quick Deploy on Heroku using the button down below:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AKHACKER-program4hack/mrrobot-fix)
-
-*To Get USERBOT_SESSION CLICK Blow Button* :
-
-[![Run on Repl.it](https://repl.it/badge/github/@program4hack/mrrobotsessioncreator#main.py)](https://repl.it/@program4hack/mrrobotsessioncreator#main.py)
-
-*USE Termux To Get USERBOT_SESSION* :
-
-```
-pkg install python && pkg install wget && python -m pip install Pyrogram==1.1.13 && wget https://raw.githubusercontent.com/AKHACKER-program4hack/mrrobot/main/sessioncreater.py && python sessioncreater.py
-```
-
-*The way I deploy*
-```bash
-git clone https://github.com/AKHACKER-program4hack/mrrobot.git
-cd userbot
-python3 -m venv env
-source env/bin/activate
-pip3 install -r requirements.txt
-python3 sessioncreater.py
-python3 -m userbot.
-```
-
-
-
 ## Developing
 To add extra modules to the bot, simply add the code into [userbot/plugins](userbot/plugins).I have made to functions for it first is ```.download``` which download media you can see in general in help menu and other is ```.load_plugin``` which load_plugin from download directory to plugin directory
 .Each file
