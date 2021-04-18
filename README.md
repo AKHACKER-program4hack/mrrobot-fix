@@ -43,7 +43,7 @@ How To Deploy MR.Robot.
 
 Quick Deploy on Heroku using the button down below:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AKHACKER-program4hack/mrrobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AKHACKER-program4hack/mrrobot-fix)
 
 *To Get USERBOT_SESSION CLICK Blow Button* :
 
