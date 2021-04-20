@@ -69,4 +69,4 @@ ENV PATH="/home/userbot/bin:$PATH"
 RUN sudo pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","userbot"]
+CMD ["bash","./akhacker/start.sh"]
